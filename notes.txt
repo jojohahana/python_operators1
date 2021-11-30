@@ -1,0 +1,22 @@
+##Logical Operator 
+
+AND : menerima dua nilai kebeneran dan mengembalikan nilai benar JIKA KEDUANYA benar
+OR : menerima dua nilai kebeneran dan mengembalikan nilai benar JIKA SALAH SATU benar
+NOT : menerima sebuah nilai kebenaran dan mengembalikan KOMPLEMENnya 
+    Contoh NOT : 
+        x=7
+        not(x==7) : hasilnya FALSE
+        not(x<=7) : hasilnya TRUE
+
+
+
+##Identity Operator
+
+IS : menerima dua buah objek dan mengembalikan nilai True KETIKA KEDUANYA merujuk pada objek yang SAMA, False jika kondisi sebaliknya
+IS NOT : menerima dua buah objek dan mengembalikan nilai True KETIKA KEDUANYA merujuk pada obje yang BERBEDA, False jika kondisi sebaliknya
+
+
+#Membership Operator
+
+IN : menerima sebuah set/sequence dan objek, mengembalikan TRUE ketika objek adalah ANGGOTA dari sequence/set tsb. False jika sebaliknya
+NOT IN : menerima sebuah set/sequence dan objek, mengembalikan TRUE ketika objeck BUKAN ANGGOTA dari sequence/set tsb. False jika sebaliknya
